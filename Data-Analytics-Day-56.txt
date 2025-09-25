@@ -1,0 +1,62 @@
+Advanced Data Analytics Lessons
+
+🔹 Lesson 1: Introduction to Big Data Tools (Hadoop & Spark)
+=========================================================
+Summary:
+Big data tools handle massive datasets beyond traditional databases.
+Hadoop → distributed storage (HDFS) + processing (MapReduce)
+Spark → faster, in-memory computation
+
+Example:
+E-commerce companies use Spark to process petabytes of transaction logs for recommendations.
+
+
+🔹 Lesson 2: Python – Advanced Pandas
+=========================================
+Summary:
+Beyond basics, Pandas supports:
+groupby() with multiple aggregations
+Time-series resampling
+Merging complex datasets
+
+Example:
+Analyze daily hospital patient admissions, resample to weekly averages, and merge with seasonal data.
+
+
+🔹 Lesson 3: Predictive Analytics – Regression Models
+=======================================================
+Summary:
+Regression predicts continuous outcomes.
+Linear Regression → simple relationships
+Multiple Regression → many variables
+Regularization (Lasso/Ridge) → prevent overfitting
+
+Example:
+Predict hospital costs based on age, diagnosis, and length of stay.
+
+
+🔹 Lesson 4: SQL Optimization & Performance Tuning
+===================================================
+Summary:
+Large queries can be slow. Optimization helps improve performance.
+Use indexes
+Avoid SELECT *
+Use EXPLAIN to analyze queries
+
+Example:
+Adding an index on patient_id sped up query time from 15s → 2s.
+
+
+🔹 Lesson 5: Case Study – Healthcare Predictive Analytics
+========================================================
+Summary:
+Steps:
+-------
+Collect patient data (demographics, history, visits)
+Use Pandas for cleaning & transformations
+Apply regression models for readmission prediction
+Optimize queries for performance in reporting
+
+Example:
+Hospital reduced readmission rates by 12% with predictive modeling.
+
